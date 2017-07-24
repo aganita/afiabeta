@@ -1,0 +1,30 @@
+body {
+	background-color: #335;
+	color: white;
+	font-family: 'Raleway';
+}
+
+.header {
+	margin: 100px auto;
+	width: 700px;
+	text-align: center;
+}
+
+.header img {
+	width: 100px;
+}
+
+.header h1 {
+	font-size: 52px;
+	line-height: 1.1;
+	margin: 18px auto;
+}
+
+.header p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.email-form {
+	display: none;
+}
