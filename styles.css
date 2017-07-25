@@ -47,6 +47,19 @@ after {
   bottom: 60%;
 }
 
-.email-form {
+.email-header {
+	max-width: 600px;
+	font-size: 32px;
+	text-align: center;
+	margin: 100px auto 50px;
+}
 
+.email-form {
+	margin: auto;
+  max-width: 400px;
+  height: 900px;
+}
+
+iframe {
+	height: 100%;
 }
