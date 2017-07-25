@@ -21,7 +21,7 @@ body {
 	margin: 18px auto;
 }
 
-.header p {
+.header p, ul {
 	font-size: 18px;
 	line-height: 1.5;
 }
@@ -32,7 +32,11 @@ body {
   width: 370px;
 	height: 800px;
   overflow:hidden;
-  display:block;
+  display: inline-block;
+}
+
+.main-container {
+	margin: 150px;
 }
 
 video{
