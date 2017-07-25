@@ -61,8 +61,7 @@ after {
 .email-form {
 	margin: auto;
   max-width: 400px;
-  height: 680px;
-	overflow: hidden;
+  height: 900px;
 }
 
 iframe {
