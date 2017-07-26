@@ -86,17 +86,23 @@ after {
 	max-width: 650px;
 	font-size: 32px;
 	text-align: center;
-	margin: 100px auto 0px;
+	margin: 100px auto 50px;
 }
 
 .email-form {
 	margin: auto;
-  max-width: 400px;
+  width: 320px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
 }
 
 iframe {
-	height: 570px;
-	overflow-y: hidden;
+	height: 495px;
+  overflow-y: hidden;
+  position: absolute;
+  top: -170px;
+  left: -18px;
 }
 
 .contact-info {
