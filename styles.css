@@ -91,18 +91,17 @@ after {
 
 .email-form {
 	margin: auto;
-  width: 320px;
-  height: 350px;
+  max-width: 400px;
+  height: 400px;
   overflow: hidden;
   position: relative;
 }
 
 iframe {
-	height: 495px;
+	height: 580px;
   overflow-y: hidden;
   position: absolute;
   top: -170px;
-  left: -18px;
 }
 
 .contact-info {
