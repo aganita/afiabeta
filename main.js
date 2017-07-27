@@ -1,15 +1,15 @@
-var controller = new ScrollMagic.Controller();
+// var controller = new ScrollMagic.Controller();
 
-// title fadeout
-var tween = TweenMax.from(".header", 2, {autoAlpha: 0, delay: 0.5, ease: Power1.easeOut});
+// // title fadeout
+// var tween = TweenMax.from(".header", 2, {autoAlpha: 0, delay: 0.5, ease: Power1.easeOut});
 
-var scene = new ScrollMagic.Scene({
-	triggerElement: ".header", 
-	duration: 500, 
-	offset: 0,
-	triggerHook: 0 })
-	.setTween(tween)
-	.addTo(controller);
+// var scene = new ScrollMagic.Scene({
+// 	triggerElement: ".header", 
+// 	duration: 500, 
+// 	offset: 0,
+// 	triggerHook: 0 })
+// 	.setTween(tween)
+// 	.addTo(controller);
 
 checkVideo();
 
